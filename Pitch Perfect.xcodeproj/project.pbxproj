@@ -13,6 +13,7 @@
 		35D27C861EED1A0400EF29EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D27C851EED1A0400EF29EC /* Assets.xcassets */; };
 		35D27C891EED1A0400EF29EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D27C871EED1A0400EF29EC /* LaunchScreen.storyboard */; };
 		35D27C911EED2F2C00EF29EC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D27C901EED2F2C00EF29EC /* Utils.swift */; };
+		35E0684E1EED3354008641CC /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0684D1EED3354008641CC /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		35D27C881EED1A0400EF29EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35D27C8A1EED1A0400EF29EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35D27C901EED2F2C00EF29EC /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		35E0684D1EED3354008641CC /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				35D27C871EED1A0400EF29EC /* LaunchScreen.storyboard */,
 				35D27C8A1EED1A0400EF29EC /* Info.plist */,
 				35D27C901EED2F2C00EF29EC /* Utils.swift */,
+				35E0684D1EED3354008641CC /* PlaySoundsViewController.swift */,
 			);
 			path = "Pitch Perfect";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				35D27C811EED1A0400EF29EC /* RecordSoundsViewController.swift in Sources */,
 				35D27C7F1EED1A0400EF29EC /* AppDelegate.swift in Sources */,
+				35E0684E1EED3354008641CC /* PlaySoundsViewController.swift in Sources */,
 				35D27C911EED2F2C00EF29EC /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +314,7 @@
 				35D27C8F1EED1A0400EF29EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
