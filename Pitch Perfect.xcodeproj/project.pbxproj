@@ -14,6 +14,7 @@
 		35D27C891EED1A0400EF29EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35D27C871EED1A0400EF29EC /* LaunchScreen.storyboard */; };
 		35D27C911EED2F2C00EF29EC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D27C901EED2F2C00EF29EC /* Utils.swift */; };
 		35E0684E1EED3354008641CC /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0684D1EED3354008641CC /* PlaySoundsViewController.swift */; };
+		35E068501EED827F008641CC /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0684F1EED827F008641CC /* playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		35D27C8A1EED1A0400EF29EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35D27C901EED2F2C00EF29EC /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		35E0684D1EED3354008641CC /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		35E0684F1EED827F008641CC /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		35D27C7D1EED1A0400EF29EC /* Pitch Perfect */ = {
 			isa = PBXGroup;
 			children = (
+				35E0684F1EED827F008641CC /* playsoundsviewcontroller-audio.swift */,
 				35D27C7E1EED1A0400EF29EC /* AppDelegate.swift */,
 				35D27C801EED1A0400EF29EC /* RecordSoundsViewController.swift */,
 				35D27C821EED1A0400EF29EC /* Main.storyboard */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D27C811EED1A0400EF29EC /* RecordSoundsViewController.swift in Sources */,
+				35E068501EED827F008641CC /* playsoundsviewcontroller-audio.swift in Sources */,
 				35D27C7F1EED1A0400EF29EC /* AppDelegate.swift in Sources */,
 				35E0684E1EED3354008641CC /* PlaySoundsViewController.swift in Sources */,
 				35D27C911EED2F2C00EF29EC /* Utils.swift in Sources */,
