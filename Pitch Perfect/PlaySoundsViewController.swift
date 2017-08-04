@@ -34,6 +34,19 @@ class PlaySoundsViewController: UIViewController {
         super.viewDidLoad()
         setupAudio()
         // Do any additional setup after loading the view.
+        snailButton.imageView?.contentMode = .scaleAspectFit
+        chipmunkButton.imageView?.contentMode = .scaleAspectFit
+        rabbitButton.imageView?.contentMode = .scaleAspectFit
+        vaderButton.imageView?.contentMode = .scaleAspectFit
+        echoButton.imageView?.contentMode = .scaleAspectFit
+        reverbButton.imageView?.contentMode = .scaleAspectFit
+        stopButton.imageView?.contentMode = .scaleAspectFit
+        
+        /*
+            I realize now that applying it in the storyboard might have just applied it to the button and not the image.
+        Thank you for the helpful hints and suggestions.
+ 
+         */
     }
     
     @IBAction func playSoundForButton(_ sender: UIButton) {
